@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewHulk"
+            android:layout_width="261dp"
+            android:layout_height="338dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_hulk1014x1500" />
+
+        <TextView
+            android:id="@+id/textViewHulk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_view_hulk"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewHulk"
+            app:layout_constraintStart_toStartOf="@+id/imageViewHulk"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewHulk" />
+
+        <ImageView
+            android:id="@+id/imageViewHomeDEFerro"
+            android:layout_width="261dp"
+            android:layout_height="338dp"
+            android:layout_marginTop="95dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHulk"
+            app:srcCompat="@drawable/ic_homem_de_ferro1500x2225" />
+
+        <TextView
+            android:id="@+id/textViewHomDEFerro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_view_homem_de_ferro"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewHomeDEFerro"
+            app:layout_constraintStart_toStartOf="@+id/imageViewHomeDEFerro"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewHomeDEFerro" />
+
+        <ImageView
+            android:id="@+id/imageViewHomemAranha"
+            android:layout_width="261dp"
+            android:layout_height="338dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.568"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHomDEFerro"
+            app:srcCompat="@drawable/ic_homem_aranha1000x1500" />
+
+        <TextView
+            android:id="@+id/textViewHomeAranha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_view_home_aranha"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewHomemAranha"
+            app:layout_constraintStart_toStartOf="@+id/imageViewHomemAranha"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewHomemAranha" />
+
+        <ImageView
+            android:id="@+id/imageViewHomemFormiga"
+            android:layout_width="261dp"
+            android:layout_height="338dp"
+            android:layout_marginTop="95dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHomeAranha"
+            app:srcCompat="@drawable/ic_homem_formiga1122x1600" />
+
+        <TextView
+            android:id="@+id/textViewHomemFormiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_view_homem_formiga"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewHomemFormiga"
+            app:layout_constraintStart_toStartOf="@+id/imageViewHomemFormiga"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewHomemFormiga" />
+
+        <ImageView
+            android:id="@+id/imageViewCapitaMarvel"
+            android:layout_width="261dp"
+            android:layout_height="338dp"
+            android:layout_marginTop="95dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHomemFormiga"
+            app:srcCompat="@drawable/ic_capita_marvel1000x1484" />
+
+        <TextView
+            android:id="@+id/textViewCapitaMarvel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_view_capita_marvel"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewCapitaMarvel"
+            app:layout_constraintStart_toStartOf="@+id/imageViewCapitaMarvel"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCapitaMarvel" />
+
+        <ImageView
+            android:id="@+id/imageViewDREstranho"
+            android:layout_width="261dp"
+            android:layout_height="338dp"
+            android:layout_marginTop="95dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCapitaMarvel"
+            app:srcCompat="@drawable/ic_dr_estranho770x1100" />
+
+        <TextView
+            android:id="@+id/textViewDREstranho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_view_dr_estranho"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewDREstranho"
+            app:layout_constraintStart_toStartOf="@+id/imageViewDREstranho"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewDREstranho" />
+
+        <ImageView
+            android:id="@+id/imageViewThor"
+            android:layout_width="261dp"
+            android:layout_height="338dp"
+            android:layout_marginTop="95dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDREstranho"
+            app:srcCompat="@drawable/ic_thor1000x15000" />
+
+        <TextView
+            android:id="@+id/textViewThor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_view_thor"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewThor"
+            app:layout_constraintStart_toStartOf="@+id/imageViewThor"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewThor" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
